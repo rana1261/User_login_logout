@@ -1,0 +1,55 @@
+body{
+	background-image: url(../image/3.jpg);
+	background-repeat:no-repeat;
+	background-size:100%  788px;
+}
+.login{
+	width:350px;
+	margin:auto;
+	background:rgba(0,0,0,0.5);
+	margin-top:120px;
+	padding:10px;
+	opacity:0.8;
+}
+form{
+	padding:10px;
+	font-family:arial;
+	border:1px white;
+	text-align:center;
+}
+h2{
+	text-align:center;
+	background:orange;
+	color:white;
+	padding:10px;
+	border-radius:10px;
+}
+input{
+	padding:10px;
+	margin:5px;
+	border-radius:5px;
+	border:none;
+}
+input[type = text],input[type = password]{
+	width:95%;
+    padding:10px;
+	border-radius:10px;
+} 
+
+input[type = Submit]{
+           width:95%;
+		   background:orange;
+		   cursor:pointer;
+		   font-size:18px;
+		   font-weight:bold;
+		   color:white;
+
+}
+
+input[type = Submit]:hover{
+	background:yellow;
+}
+
+
+
+
